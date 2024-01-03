@@ -1029,7 +1029,36 @@ label {
 .top-logo img {
     width: 250px;
 }
+.right .click-here {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+.right .click-here .chp .click-here-button {
+    border: none;
+    color: crimson;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    color: crimson;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
 
+}
+.right .click-here #chp {
+    text-align: center;
+    font-size: 28px; 
+    border-bottom: 2px crimson solid;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img {
@@ -1226,6 +1255,16 @@ label {
     width: 0px;
     content: "";
    }
+   #chp-mobile {
+    font-size: 21px;
+}
+.click-here .click-here-button{
+    margin-top: 0px;
+}
+.click-here {
+    margin-bottom: 20px;
+    border-bottom: 2px solid crimson;
+}
 }
 
 @media (max-width: 500px) {
